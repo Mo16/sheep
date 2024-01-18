@@ -1455,8 +1455,9 @@ body:before {
     top: 0;
     width: 100%;
     height: 100%;
+    background-color: #c2eda1;
     z-index: -10;
-    background: url(/paca/1_1.png) no-repeat center center;
+    /* background: url(/paca/1_1.png) no-repeat center center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
