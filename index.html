@@ -1381,6 +1381,16 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 										<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 										<script>
+											    window.addEventListener('scroll', function() {
+        const leaf = document.querySelector('.leaf');
+        if (window.scrollY >= window.innerHeight) {
+            // Hide the image when scrolled more than 100vh
+            leaf.style.display = 'none';
+        } else {
+            // Show the image when scrolled less than 100vh
+            leaf.style.display = 'block';
+        }
+    });
   jQuery(document).ready(function ($) {
     var audio = document.getElementById("backgroundAudio");
     var isPaused = audio.paused; // Set initial state based on audio element
