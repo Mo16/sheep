@@ -1,0 +1,87 @@
+.elementor-kit-6 {
+    --e-global-color-primary: #6ec1e4;
+    --e-global-color-secondary: #54595f;
+    --e-global-color-text: #7a7a7a;
+    --e-global-color-accent: #61ce70;
+    --e-global-color-b6c6206: #e2e2e2;
+    --e-global-color-96d230c: #CCA1ED;
+    --e-global-color-97fcdf6: #000000;
+    --e-global-color-81d86d0: #000000;
+    --e-global-color-93aa256: #c2eda1;
+    --e-global-typography-primary-font-family: "Super Boy Font";
+    --e-global-typography-primary-font-size: 80px;
+    --e-global-typography-primary-font-weight: 700;
+    --e-global-typography-secondary-font-family: "Super Boy Font";
+    --e-global-typography-secondary-font-size: 50px;
+    --e-global-typography-secondary-font-weight: 600;
+    --e-global-typography-text-font-family: "KBPinkLipgloss Font";
+    --e-global-typography-text-font-size: 40px;
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "KBPinkLipgloss Font";
+    --e-global-typography-accent-font-size: 20px;
+    --e-global-typography-accent-font-weight: 600;
+    background-color: var(--e-global-color-93aa256);
+    --e-page-transition-entrance-animation: e-page-transition-slide-out-down;
+    --e-page-transition-exit-animation: e-page-transition-zoom-in;
+    --e-page-transition-animation-duration: 1500ms;
+    --e-preloader-animation: flash;
+    --e-preloader-animation-duration: 1500ms;
+    --e-preloader-delay: 0ms;
+    --e-preloader-width: 10%;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1140px;
+}
+.e-con {
+    --container-max-width: 1140px;
+}
+ {
+}
+h1.entry-title {
+    display: var(--page-title-display);
+}
+.elementor-kit-6 e-page-transition {
+    background-color: var(--e-global-color-93aa256);
+}
+@media (max-width: 1024px) {
+    .elementor-section.elementor-section-boxed > .elementor-container {
+        max-width: 1024px;
+    }
+    .e-con {
+        --container-max-width: 1024px;
+    }
+    .elementor-kit-6 {
+        --e-preloader-width: 20%;
+    }
+}
+@media (max-width: 767px) {
+    .elementor-kit-6 {
+        --e-global-typography-primary-font-size: 50px;
+        --e-global-typography-secondary-font-size: 30px;
+        --e-global-typography-text-font-size: 22px;
+        --e-preloader-width: 30%;
+    }
+    .elementor-section.elementor-section-boxed > .elementor-container {
+        max-width: 767px;
+    }
+    .e-con {
+        --container-max-width: 767px;
+    }
+} /* Start Custom Fonts CSS */
+@font-face {
+    font-family: "Super Boy Font";
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url("../../2023/12/SuperBoys-vmW67.ttf") format("truetype");
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */
+@font-face {
+    font-family: "KBPinkLipgloss Font";
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url("../../2023/12/Kbpinklipgloss-jaEv.ttf") format("truetype");
+}
+/* End Custom Fonts CSS */
