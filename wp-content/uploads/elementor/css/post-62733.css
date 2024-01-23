@@ -56,7 +56,7 @@ h1.entry-title {
 }
 @media (max-width: 767px) {
     .elementor-kit-6 {
-        --e-global-typography-primary-font-size: 50px;
+        --e-global-typography-primary-font-size: 10rem;
         --e-global-typography-secondary-font-size: 30px;
         --e-global-typography-text-font-size: 22px;
         --e-preloader-width: 30%;
